@@ -1,0 +1,540 @@
+.homepage_detail{
+    display: flex;
+    padding-bottom: 170px;
+}
+
+.section_1{
+    padding-top: 345px;
+    padding-bottom: 30px;
+}
+
+h1{
+    font-size: 48px;
+}
+
+.green_tag{
+    /* display: block; */
+    color: #6fb02f;
+    font-size: 48px;
+}
+
+.below_heading{
+    padding-right: 20px;
+    /* text-align: left; */
+    font-size: 21px;
+    color: #737c8b;
+}
+
+.How-it-works-btn{
+    background-color: white;
+    font-weight: bold;  
+    border: 2px solid #f58031;
+    text-decoration: none;
+    color: #f58031;
+    padding:16px 28px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.How-it-works-btn:hover{
+    transition: all .8s;
+    transform: translateY(-3px);
+    box-shadow: 0 3px 15px 0 rgba(245,128,49,.4);
+
+}
+
+.Book-a-demo-btn{
+    text-decoration: none;
+    background-color: #f58031;
+    font-weight: bold;
+    padding:16px 28px;
+    font-size: 16px;
+    border-radius: 10px;
+    max-width: 180px;
+    color: #fff;
+}
+
+.Book-a-demo-btn:hover {
+    background-color: #f58031;
+    border-color: #f58031;
+    color: #fff;
+    transition: all .8s;
+    transform: translateY(-3px);
+    box-shadow: 0 3px 15px 0 rgba(245,128,49,.4);
+}
+
+.logo_info{
+    width: 50%;
+}
+
+.logo_info h1{
+    line-height: 67px;
+}
+
+.logo_info p{
+    line-height: 30px;
+}
+
+.homepage{
+    width: 50%;
+    /* padding-left: 100px; */
+}
+
+.homepage img{
+    padding-top: 50px;
+    padding-left: 65px;
+}
+
+.automotive{
+    background-color: #1c283a;
+    padding: 115px 0 130px;
+}
+
+.fullname-input{
+    padding: 15px 60px 15px 20px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.email-input{
+    padding: 15px 60px 15px 20px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.download-btn{
+    background-color: #6fb02f;
+    padding:15px 43px;
+    font-size: 16px;
+    border-radius: 12px;
+    max-width: 180px;
+    color: #fff;
+}
+
+.download-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 3px 15px 0 rgba(111,176,47,.4);
+    background-color: #6fb02f;
+border-color: #6fb02f;
+color: #fff;
+transition: all .8s;
+}
+
+.automotive_detail{
+    display: flex;
+    align-items: center;
+}
+
+.automotive_image{
+    padding: 0 30px;
+}
+
+.automotive_form{
+    padding: 0 30px;
+}
+
+.icon-one{
+    display: inline-block;
+    background-size: cover;
+    background-color: #ccc;
+    transition: all .2s;
+    color: #6fb02f;
+  
+    width: 25px;
+    height: 25px;
+}
+
+.guide h2{
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #6fb02f;
+}
+
+.guide h1{
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.Book-a-demo-btn-two{
+    padding-top: 50px;
+    text-decoration: none;
+    background-color: #f58031;
+    font-weight: bold;
+    padding:16px 28px;
+    font-size: 16px;
+    border-radius: 10px;
+    max-width: 180px;
+    color: #fff;
+}
+
+.Book-a-demo-btn-two:hover{
+    background-color: #f58031;
+    border-color: #f58031;
+    color: #fff;
+    transition: all .8s;
+    transform: translateY(-3px);
+    box-shadow: 0 3px 15px 0 rgba(245,128,49,.4);   
+}
+
+.guide p{
+    color: #fff;
+    font-size: 23px;
+    line-height: 30px;
+    max-width: 607px;
+    margin-bottom: 16px;
+}
+
+.book_a_demo{
+    padding-top: 90px;
+    text-align: center;
+}
+
+.email_detail ul li:before{
+    content: "\f00d";
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    font-style: normal;
+    font-feature-settings: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    margin-right: 10px;
+    color: red;
+    position: absolute;
+    left: -30px;
+    top: auto;
+}
+
+.inner_book{
+    padding: 0 70px;
+}
+
+.marketing{
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 8px;
+}
+
+.description{
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #737c8b;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.easier_way{
+    font-size: 21px;
+    line-height: 25px;
+    padding-bottom: 63px;
+    font-weight: 600;
+    color: #737c8b;
+    max-width: 768px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.email{
+    padding: 102px 0;
+}
+
+.inner_email{
+    display: flex;
+    align-items: center;
+}
+
+.emailh1{
+    font-size: 56px;
+    line-height: 67px;
+    color: #1c283a;
+    margin-bottom: 30px;
+}
+
+.intro1{
+    color: #737c8b;
+    line-height: 21px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding-right: 58px;
+}
+
+.bold_info{
+    color: #1c283a;
+    font-size: 20px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.see-pricing-btn{
+    padding-left: 480px;
+    padding-top: 30px;
+}
+
+.see-pricing-btn-btn{
+    text-decoration: none;
+    background-color: #f58031;
+    font-weight: bold;
+    position: absolute;
+    padding:16px 28px;
+    font-size: 16px;
+    border-radius: 10px;
+    max-width: 180px;
+    color: #fff;
+}
+
+.see-pricing-btn-btn:hover{
+    background-color: #f58031;
+    border-color: #f58031;
+    color: #fff;
+    transition: all .8s;
+    transform: translateY(-3px);
+    box-shadow: 0 3px 15px 0 rgba(245,128,49,.4);      
+}
+
+.benefits{
+    padding: 120px 0;
+}
+
+.inner_benefits{
+    display: flex;
+    align-items: center;
+}
+
+.benefits_image img{
+    width: 540px;
+    object-fit: cover;
+    position: relative;
+}
+
+.benefits_image{
+    padding: 0 15px;
+}
+
+.benefits_info{
+    padding: 0 15px;
+}
+
+.benefits_info h1{
+    font-size: 45px;
+    line-height: 56px;
+    color: #1c283a;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+}
+
+.benefits_info p{
+    font-size: 18px;
+    color: #737c8b;
+    line-height: 21px;
+    margin-bottom: 30px;
+}
+
+.pricing{
+    padding: 100px 0 50px;
+}
+
+.inner_pricing{
+    text-align: center;
+    padding: 0 78px;
+}
+
+.pricing_head{
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 8px;
+}
+
+.pricing_info{
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #737c8b;
+}
+
+.step1{
+    padding: 70px;
+}
+
+.inner_step1{
+    display: flex;
+    align-items: center;
+}
+
+.step1_h3{
+    font-size: 20px;
+    line-height: 24px;
+    color: #6fb02f;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.step1_h1{
+    color: #1c283a;
+    font-size: 46px;
+    line-height: 56px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.step1_para{
+    color: #737c8b;
+    font-size: 18px;
+    line-height: 22px;
+    padding-right: 44px;
+}
+
+.step2{
+    padding: 70px;
+}
+
+.inner_step2{
+    display: flex;
+    align-items: center;
+}
+
+.step2_image{
+    padding: 0 15px;
+}
+
+.step2_information{
+    padding: 0 15px;
+}
+
+.step2_h3{
+    font-size: 20px;
+    line-height: 24px;
+    color: #6fb02f;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.step2_h1{
+    color: #1c283a;
+    font-size: 46px;
+    line-height: 56px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.step2_para{
+    color: #737c8b;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.step3{
+    padding: 70px;
+}
+
+.inner_step3{
+    display: flex;
+    align-items: center;
+}
+
+.step3_h3{
+    font-size: 20px;
+    line-height: 24px;
+    color: #6fb02f;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.step3_h1{
+    color: #1c283a;
+    font-size: 46px;
+    line-height: 56px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.step3_para{
+    color: #737c8b;
+    font-size: 18px;
+    line-height: 22px;
+    padding-right: 47px;
+}
+
+.dealership_special{
+    padding: 100px 0 50px;
+}
+
+.inner_dealership{
+    text-align: center;
+    padding: 0 128px;
+}
+
+.inner_dealership ul{
+    list-style: none;
+    padding-top: 70px;
+}
+
+.dealership_heading{
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 8px;
+}
+
+.dealship_para{
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #737c8b;
+}
+
+.inner_dealership li{
+    color: #1c283a;
+    font-size: 20px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.inreay_app{
+    background-color: #1c283a;
+}
+
+.inner_app{
+    display: flex;
+    align-items: center;
+}
+
+.inrelay_app_image{
+    padding: 0 15px;
+}
+
+.inrelay_app_info{
+    padding: 0 15px;
+}
+
+.inrelay_app_h1{
+    font-size: 34px;
+    line-height: 43px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.inrelay_app_p{
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    max-width: 430px;
+}
+
+.inrelay_app_link_images a{
+    padding: 0 3px;
+}
+
+.button{
+    display: flex;
+}

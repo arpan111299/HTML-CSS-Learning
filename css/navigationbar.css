@@ -1,0 +1,147 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* .navigation{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 9999;
+} */
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    max-width: 1140px;
+    margin-left: auto;
+}
+
+
+
+/* .logo{
+    display: inline-block;
+    padding-top: 5px;
+    width: 120px;
+    height: 67px;
+    padding: 0;
+    margin: 0;
+} */
+
+/* .logo_components li{
+    display: inline-block;
+    padding-top: 34px;
+    
+    padding-left: 15px;
+}
+
+
+.logo_components li a{
+    padding-top: 10px;
+    padding-left: 60px;
+    color: black;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+    text-decoration: none;
+}
+
+.logo_components li a:hover{
+    color: #fff;
+    background-color: #f58031;
+    
+    border-radius: 6px;
+}
+
+.navigation ul{
+    display: flex;
+} */
+
+
+
+
+
+
+
+.navbar{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px #0000000a;
+    /* overflow: hidden; */
+    position: fixed;
+    top: 0;
+    /* position: relative; */
+}
+
+.navbar ::after{
+    box-shadow: 1px 1px #0000000a;
+
+}
+
+.nav-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar ul{
+    justify-content: center;
+    align-items: center;
+    padding: 0px 60px;
+}
+
+.navbar li{
+    float:left;
+    list-style: none;
+    padding: 10px 30px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    /* color:black; */
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 7px 10px;
+    border-radius: 10px;
+}
+
+.blog_btn, .industries_btn, .about_btn, .pricing_btn, .contact_btn{
+    color: black;
+}
+
+.navbar li a:hover{
+    background-color: #f58031;
+    color: white;
+    
+}
+
+.login{
+    transition: 0.8s;
+}
+
+.login-button, .home_btn{
+    text-decoration: none;
+    background-color: #f58031;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 8px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.login:hover{
+    margin-bottom: 8px;
+}
+
+.banner{
+    height: 1000px;
+}
